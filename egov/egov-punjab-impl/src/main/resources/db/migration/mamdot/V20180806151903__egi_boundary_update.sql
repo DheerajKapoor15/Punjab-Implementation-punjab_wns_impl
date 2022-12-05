@@ -1,0 +1,1 @@
+update eg_boundary set name = 'Mamdot Nagara Panchayat', localname = 'Mamdot Nagara Panchayat' where code in ('ADM_CITY', 'REV_CITY', 'LOC_CITY'); 

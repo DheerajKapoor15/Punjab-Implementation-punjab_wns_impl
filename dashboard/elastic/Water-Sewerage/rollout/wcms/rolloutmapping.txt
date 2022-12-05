@@ -1,0 +1,19 @@
+curl -XPUT localhost:9200/waterchargesrollout -d '{
+    "mappings" : {
+        "waterchargesrollout" : {
+            "properties" : {
+                "regionname" : {"type" : "string","store" : true,"index": "not_analyzed"},
+                "districtname" : {"type" : "string","store" : true,"index": "not_analyzed"},
+                "ulbname" : {"type" : "string","store" : true,"index": "not_analyzed"},
+                "ulbcode" : {"type" : "string","store" : true,"index": "not_analyzed"},
+                "daybeforeyesterday" : {"type" : "long"},
+                "yesterday" : {"type" : "long"},
+                "today" : {"type" : "long"},
+                "totalconnections" : {"type" : "long"},
+                "dataentryconnections": {"type" : "long"},
+                "difference": {"type" : "long"}
+             }
+        }
+    }
+}'
+

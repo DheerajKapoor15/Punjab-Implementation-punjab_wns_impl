@@ -1,0 +1,1 @@
+update eg_installment_master set end_date = '2024-09-30 23:59:59' where description = '2024-2025-Q2 (Jul to Sept)';

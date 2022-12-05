@@ -1,0 +1,1 @@
+update egwtr_watercharge_rates set ratetype='FIXED' where usagetype in (select id from egwtr_usage_type where name in ('COMMERCIAL'));

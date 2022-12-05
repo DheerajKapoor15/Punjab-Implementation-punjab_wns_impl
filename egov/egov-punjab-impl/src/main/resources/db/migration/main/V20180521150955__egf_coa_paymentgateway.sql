@@ -1,0 +1,1 @@
+INSERT INTO chartofaccounts (id,glcode,name,isactiveforposting,parentid,createddate,type,classification,functionreqd, budgetcheckreq, majorcode, createdby) VALUES (nextval('seq_chartofaccounts'), '4318002','Receivables control accounts-Axis Bank Gateway',true, (select id from chartofaccounts where glcode='43180'), current_date,'A',4, false, false, '431', 1);

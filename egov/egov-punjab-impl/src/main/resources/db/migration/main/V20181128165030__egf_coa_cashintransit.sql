@@ -1,0 +1,1 @@
+update chartofaccounts set name='Cash In Transit', description='Cash In Transit' where glcode='4501004';

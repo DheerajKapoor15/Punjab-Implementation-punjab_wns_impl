@@ -1,0 +1,1 @@
+INSERT INTO bank (id, code, name, narration, isactive, lastmodifieddate, createddate, lastmodifiedby, type,version,createdby) VALUES (nextval('seq_bank'),' UJVN','Ujjivan Small Finance Bank','Ujjivan Small Finance Bank', true, current_date, current_date, 1, NULL,0,1);

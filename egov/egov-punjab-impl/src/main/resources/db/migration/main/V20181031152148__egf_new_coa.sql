@@ -1,0 +1,10 @@
+delete from chartofaccounts where glcode in('1402005','1501104','1407014');
+
+insert into chartofaccounts(id,glcode,name,description,isactiveforposting,parentid,createddate,createdby,lastmodifieddate,purposeid,operation,type,class,classification,functionreqd,budgetcheckreq,scheduleid,receiptscheduleid,receiptoperation,paymentscheduleid,paymentoperation,majorcode,lastmodifiedby,fiescheduleid,fieoperation)
+values(nextval('seq_chartofaccounts'),'1402005','Penalties and Fines- Late Payment Charges (Penalty)','Penalties and Fines- Late Payment Charges (Penalty)',true,(select id from chartofaccounts where glcode='14020'),now(),1,now(),null,null,'I',null,4,true,false,null,null,null,null,null,140,1,null,null);
+
+insert into chartofaccounts(id,glcode,name,description,isactiveforposting,parentid,createddate,createdby,lastmodifieddate,purposeid,operation,type,class,classification,functionreqd,budgetcheckreq,scheduleid,receiptscheduleid,receiptoperation,paymentscheduleid,paymentoperation,majorcode,lastmodifiedby,fiescheduleid,fieoperation)
+values(nextval('seq_chartofaccounts'),'1501104','Sale of Forms and Publications-Application Forms','Sale of Forms and Publications-Application Forms',true,(select id from chartofaccounts where glcode='15011'),now(),1,now(),null,null,'I',null,4,true,false,null,null,null,null,null,150,1,null,null);
+
+insert into chartofaccounts(id,glcode,name,description,isactiveforposting,parentid,createddate,createdby,lastmodifieddate,purposeid,operation,type,class,classification,functionreqd,budgetcheckreq,scheduleid,receiptscheduleid,receiptoperation,paymentscheduleid,paymentoperation,majorcode,lastmodifiedby,fiescheduleid,fieoperation)
+values(nextval('seq_chartofaccounts'),'1407014','Service Administrative Charges-Supervision Charges','Service Administrative Charges-Supervision Charges',true,(select id from chartofaccounts where glcode='14070'),now(),1,now(),null,null,'I',null,4,true,false,null,null,null,null,null,140,1,null,null);

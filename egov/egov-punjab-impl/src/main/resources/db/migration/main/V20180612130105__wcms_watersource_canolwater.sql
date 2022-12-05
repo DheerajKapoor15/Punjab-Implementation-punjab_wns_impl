@@ -1,0 +1,1 @@
+Insert into egwtr_water_source (id, code, watersourcetype, description, active, createddate, lastmodifieddate, createdby, lastmodifiedby, version) values (nextval('seq_egwtr_water_source'), 'CANOLWATER', 'Canol Water', 'Canol Water', 'true', now(), now(), 1, 1, 0);

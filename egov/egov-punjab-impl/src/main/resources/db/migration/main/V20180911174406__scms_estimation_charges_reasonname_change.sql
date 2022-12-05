@@ -1,0 +1,4 @@
+update eg_demand_reason_master set reasonmaster='Sewerage Other Fee' where reasonmaster='Sewerage Other Charges' and module=(select id from eg_module where name = 'Sewerage Tax Management');
+update eg_demand_reason_master set reasonmaster='Sewerage Road Cutting Fee' where reasonmaster='Sewerage Road Cutting Charges' and module=(select id from eg_module where name = 'Sewerage Tax Management');
+update eg_demand_reason_master set reasonmaster='Sewerage SuperVision Fee' where reasonmaster='Sewerage SuperVision Charges' and module=(select id from eg_module where name = 'Sewerage Tax Management');
+update eg_demand_reason_master set reasonmaster='Sewerage Application Fee' where reasonmaster='Sewerage Application Charges' and module=(select id from eg_module where name = 'Sewerage Tax Management');

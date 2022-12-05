@@ -1,0 +1,1 @@
+insert into eg_user(id, locale, username, password, createddate, lastmodifieddate, createdby, lastmodifiedby, active, name, type, pwdexpirydate) values(nextval('seq_eg_user'), 'en_IN', 'sewakendra', '$2a$10$k2YOhdD/z6IGm.jA1gUVU.SgKIDovRl6nsDW2CJtCgOhhgKV284Tq', now(), now(), 1, 1, true, 'SEWA KENDRA', 'BUSINESS', '2099-01-01 00:00:00');

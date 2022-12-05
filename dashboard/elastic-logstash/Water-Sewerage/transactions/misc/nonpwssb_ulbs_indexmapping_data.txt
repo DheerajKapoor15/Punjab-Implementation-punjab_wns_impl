@@ -1,0 +1,166 @@
+curl -XPUT localhost:9200/nonpwssbulbs -d '{
+    "mappings":{
+        "nonpwssbulbs":{
+            "properties":{
+		"cityname":{
+                    "type":"keyword"
+                }
+            }
+        }
+    }
+}'
+
+
+POST localhost:9200/_bulk
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Adampur" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Ahmedgarh" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Alawalpur" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Amargarh" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Amloh" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Baghapurana" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Banur" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Begowal" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Bhadson" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Bhawanigarh" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Bhogpur" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Bhulath" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Dasuya" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Dera Baba Nanak " }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"DeraBassi" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Dhanaula" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Dharamkot" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Dhariwal" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Dhilwan" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Doraha" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Fazilka" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Garhdiwala" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Garhshankar" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Ghagga" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Goraya" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Gurdaspur" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Guru Harsahai" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Hariana" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Hoshiarpur" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Jagraon" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Jalalabad" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Kapurthala" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Kartarpur" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Khamano" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Kharar" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Kurali" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Lalru" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Lehragaga" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Mahilpur" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Makhu" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Malerkotla" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Mamdot" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Mandi Gobindgarh" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Moga" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Mohali" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Moonak" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Mudki" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Mukerian" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Nabha" } 
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Nadala" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Nangal" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Nihal Singh Wala" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Nurmahal" } 
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Patran" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Patti" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Rahon" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Raikot" } 
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Raja Sansi " }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Rampura Phul" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Rayya" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Ropar" } 
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Samrala" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Sanaur" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Shahkot" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Shamchurasi" }  
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Sujanpur" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Sultanpur Lodhi" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Sunam" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Tapa" }  
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Tarn Taran " } 
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Urmar Tanda" } 
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Zira" } 
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Nawanshahr" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Amritsar" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Pathankot" }
+{ "index":{ "_index": "nonpwssbulbs", "_type": "nonpwssbulbs" } }
+{ "cityname":"Zirakpur" }

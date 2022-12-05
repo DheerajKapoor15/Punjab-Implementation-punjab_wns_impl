@@ -1,0 +1,1 @@
+delete from eg_department where name='PWSSB';

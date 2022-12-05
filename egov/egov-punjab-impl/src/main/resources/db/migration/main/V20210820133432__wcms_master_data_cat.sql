@@ -1,0 +1,2 @@
+--Category
+--INSERT INTO egwtr_category(id, name, code, active, createddate, lastmodifieddate, createdby, lastmodifiedby, version) VALUES (nextval('seq_egwtr_category'), 'Regularisation of Illegal Connection', 'REG', true, now(), now(), 1, 1, 0);

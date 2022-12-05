@@ -1,0 +1,112 @@
+curl -XPUT localhost:9200/applications-receipts -d '{
+    "mappings":{
+        "applications-receipts":{
+            "properties":{
+		"id":{
+                    
+                    "type":"keyword"
+                },
+                "receiptNumber":{
+                    
+                    "type":"keyword"
+                },
+                "cityCode":{
+                    
+                    "type":"keyword"
+                },
+                "billingService":{
+                    
+                    "type":"keyword"
+                },
+                "paymentMode":{
+                    
+                    "type":"keyword"
+                },
+                "channel":{
+                    
+                    "type":"keyword"
+                },
+                "paymentGateway":{
+                    
+                    "type":"keyword"
+                },
+                "billNumber":{
+                    
+                    "type":"keyword"
+                },
+                "cityName":{
+                    
+                    "type":"keyword"
+                },
+                "districtName":{
+                    
+                    "type":"keyword"
+                },
+                "regionName":{
+                    
+                    "type":"keyword"
+                },
+                "status":{
+                    
+                    "type":"keyword"
+                },
+                "cityGrade":{
+                    
+                    "type":"keyword"
+                },
+                "receiptCreator":{
+                    
+                    "type":"keyword"
+                },
+                "receiptDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },            
+		"applicationfee":{
+                    "type":"double"
+                },
+		"securitydeposit":{
+                    "type":"double"
+                },
+                "roadcuttingfee":{
+                    "type":"double"
+                },
+                "connectionfee":{
+                    "type":"double"
+                },
+		"otherfee":{
+                    "type":"double"
+                },
+		"totalAmount":{
+                    "type":"double"
+                },
+                "consumerName":{                    
+                    "type":"keyword"
+                },
+                "applicationNumber":{                    
+                    "type":"keyword"
+                },
+                "block":{
+                    
+                    "type":"keyword"
+                },
+		"locality":{
+                    
+                    "type":"keyword"
+                },
+                "createdDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },
+                "consumerType":{
+                    
+                    "type":"keyword"
+                },
+		"pwssb":{
+                    "type":"boolean"
+                }
+            }
+        }
+    }
+}'
+

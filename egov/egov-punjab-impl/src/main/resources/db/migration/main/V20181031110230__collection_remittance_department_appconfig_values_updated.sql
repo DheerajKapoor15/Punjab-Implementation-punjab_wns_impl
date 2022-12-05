@@ -1,0 +1,1 @@
+update eg_appconfig_values set VALUE = 'DEPT_01' where KEY_ID= (SELECT id FROM EG_APPCONFIG WHERE KEY_NAME='COLLECTION_BANKREMITTANCE_DEPARTMENTCODE' AND MODULE =(select id from eg_module where name='Collection'));

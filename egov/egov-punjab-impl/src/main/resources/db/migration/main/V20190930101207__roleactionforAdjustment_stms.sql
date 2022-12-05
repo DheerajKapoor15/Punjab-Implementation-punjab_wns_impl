@@ -1,0 +1,2 @@
+Insert into eg_roleaction (roleid,actionid) values ((select id from eg_role where name='Connection Active/Deactive'),(select id from eg_action where name='SearchSewerageTaxActivateDeactivate'));
+Insert into eg_roleaction (roleid,actionid) values ((select id from eg_role where name='Connection Active/Deactive'),(select id from eg_action where name='SewerageTaxActivateDeactivate'));

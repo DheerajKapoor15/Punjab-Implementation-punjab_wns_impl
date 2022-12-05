@@ -1,0 +1,1 @@
+update eg_citypreferences set municipalitycontactno ='0172-2619192';

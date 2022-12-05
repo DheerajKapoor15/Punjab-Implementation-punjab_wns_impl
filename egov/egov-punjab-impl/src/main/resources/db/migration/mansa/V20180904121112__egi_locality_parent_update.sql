@@ -1,0 +1,6 @@
+update eg_boundary set parent=(select id from eg_boundary where code='B1B' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')) where boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality') and code in ('BM8', 'BM9', 'BM10');
+
+update eg_boundary set parent=(select id from eg_boundary where code='B1C' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')) where boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality') and code in ('BM11', 'BM12');
+
+update eg_boundary set parent=(select id from eg_boundary where code='B4E' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')) where boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality') and code in ('BM77', 'BM78', 'BM79', 'BM80', 'BM81');
+

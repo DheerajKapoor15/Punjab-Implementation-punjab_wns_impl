@@ -1,0 +1,2 @@
+insert into eg_roleaction (roleid,actionid) values ((select id from eg_role where name='PWSSB User'), (select id from eg_action where url='/citizen/searchOnlineReceipt.action' and contextroot='collection'));
+insert into eg_roleaction (roleid,actionid) values ((select id from eg_role where name='PWSSB User'), (select id from eg_action where url='/reports/generateBillForSHSCNo/downloadDemandBill' and contextroot='stms'));

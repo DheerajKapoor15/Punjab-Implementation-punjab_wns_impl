@@ -1,0 +1,1 @@
+update chartofaccounts set name = 'Revenue Collection Fees', description = 'Revenue Collection Fees' where glcode = '1404017';

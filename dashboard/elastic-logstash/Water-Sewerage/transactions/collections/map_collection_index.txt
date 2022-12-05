@@ -1,0 +1,120 @@
+curl -XPUT localhost:9200/receipts-consumers -d '{
+    "mappings":{
+        "receipts_bifurcation":{
+            "properties":{
+		"id":{
+                    
+                    "type":"keyword"
+                },
+                "receiptNumber":{
+                    
+                    "type":"keyword"
+                },
+                "cityCode":{
+                    
+                    "type":"keyword"
+                },
+                "billingService":{
+                    
+                    "type":"keyword"
+                },
+                "paymentMode":{
+                    
+                    "type":"keyword"
+                },
+                "channel":{
+                    
+                    "type":"keyword"
+                },
+                "paymentGateway":{
+                    
+                    "type":"keyword"
+                },
+                "billNumber":{
+                    
+                    "type":"keyword"
+                },
+                "cityName":{
+                    
+                    "type":"keyword"
+                },
+                "districtName":{
+                    
+                    "type":"keyword"
+                },
+                "regionName":{
+                    
+                    "type":"keyword"
+                },
+                "status":{
+                    
+                    "type":"keyword"
+                },
+                "cityGrade":{
+                    
+                    "type":"keyword"
+                },
+                "receiptCreator":{
+                    
+                    "type":"keyword"
+                },
+                "receiptDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },
+                "arrearAmount":{
+                    "type":"double"
+                },
+		"latePaymentCharges":{
+                    "type":"double"
+                },
+                "interestAmount":{
+                    "type":"double"
+                },
+                "currentAmount":{
+                    "type":"double"
+                },
+		"advanceAmount":{
+                    "type":"double"
+                },
+                "totalAmount":{
+                    "type":"double"
+                },                
+                "installmentFrom":{
+                    "type":"keyword"
+                },
+                "installmentTo":{
+                    "type":"keyword"
+                },
+                "consumerName":{
+                    
+                    "type":"keyword"
+                },
+                "consumerCode":{
+                    
+                    "type":"keyword"
+                },
+                "block":{
+                    
+                    "type":"keyword"
+                },
+		"locality":{
+                    
+                    "type":"keyword"
+                },
+                "createdDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },
+                "consumerType":{
+                    
+                    "type":"keyword"
+                },
+		"pwssb":{
+                    "type":"boolean"
+                }
+            }
+        }
+    }
+}'
+

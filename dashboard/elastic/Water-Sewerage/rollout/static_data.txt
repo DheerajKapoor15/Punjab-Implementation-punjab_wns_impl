@@ -1,0 +1,157 @@
+
+create table generic.water_sewerage_statistics (
+    ulbcode character varying,
+    total_wc_connections integer,
+    total_sw_connections integer
+);
+
+=CONCATENATE("insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('",C2,"', ",D2,",",E2,");")	
+
+
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2113', 7956,5868);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2109', 1947,49);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1302', 427,658);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1303', 5517,2015);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1304', 1081,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0701', 13637,15320);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2202', 0,119);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0308', 570,492);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0704', 1467,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2004', 3434,84);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0320', 0,2097);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0102', 2612,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0103', 689,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1011', 1104,712);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0105', 1053,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1907', 9141,5131);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0319', 563,398);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1301', 2354,691);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0101', 2473,439);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1401', 366,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1702', 2553,3199);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1701', 2746,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2204', 5759,9208);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0202', 2645,325);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2106', 1407,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0801', 2414,4012);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1801', 494,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1908', 2700,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0104', 668,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0808', 307,391);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0502', 2728,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1306', 6487,8544);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0304', 2034,2232);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0306', 1958,1490);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0402', 4242,583);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1001', 2611,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1101', 953,417);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1003', 2567,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1102', 659,247);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2104', 854,97);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1103', 1333,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0804', 526,212);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1201', 597,666);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0401', 0,5044);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0903', 3048,231);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1307', 1510,1293);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0503', 284,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2107', 2664,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1204', 1447,298);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0905', 2262,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1205', 96,667);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0316', 3100,2412);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1601', 1164,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0906', 3077,3698);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1009', 4314,2182);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1909', 1319,74);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1905', 2736,2000);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1207', 963,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0807', 578,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1208', 1678,303);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1906', 13330,14996);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2006', 8288,7875);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1210', 1573,365);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0908', 1156,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0205', 880,431);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0909', 3005,306);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1002', 1460,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2102', 400,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0501', 338,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1501', 557,3133);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1901', 446,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1602', 3390,3047);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2103', 3629,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0803', 509,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2105', 9168,3318);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0805', 448,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0603', 9105,9071);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0902', 1405,541);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1902', 563,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1903', 960,119);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0204', 1981,31);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0904', 1153,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0604', 4587,3523);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1006', 3458,1440);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1503', 19339,11349);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0403', 2302,1436);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1504', 2515,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1505', 5584,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2108', 3616,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1147', 294,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1105', 58,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1406', 431,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1704', 2347,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0311', 3703,1597);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1012', 326,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0505', 2864,1321);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0707', 3552,1194);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1603', 9523,8703);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0706', 587,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0106', 165,1227);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0907', 931,92);
+
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0806', 4026,5607);
+
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0504', 9120,8878);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0901', 1114,1757);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0601', 19916,16866);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1104', 14292,17250);
+
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2203', 1700,6278);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0802', 1212,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0708', 1195,678);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0703', 479,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0702', 559,642);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1402', 1656,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1403', 2458,935);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1106', 1768,2713);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2005', 1141,2673);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1202', 4151,4257);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0201', 19876,13429);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2101', 5623,2622);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1502', 10414,4913);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1904', 7210,1053);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2110', 9866,10533);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2111', 2097,0);
+
+---------------------------------------
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1206', 2808,2166);
+
+----------------------------------
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1005', 2304,0);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('1508', 1737,1500);
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('2112', 12811,10611);
+---------------------------------------
+
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0318', 3321,4382);
+
+----------------------------------
+---------------------------------------
+
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0910', 15403,13029);
+
+---------------------------------------------
+
+insert into generic.water_sewerage_statistics (ulbcode, total_wc_connections, total_sw_connections) values ('0203', 2492,59);
+
+----------------------------------

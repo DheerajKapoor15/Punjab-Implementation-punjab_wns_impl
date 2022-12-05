@@ -1,0 +1,1 @@
+update eg_citypreferences set googleapikey='AIzaSyCzRLAPShKqs7rj2yctW0zTVTidlVt1t9I', recaptchapk='6LeeCGMUAAAAAOlhzAooYv1YO2nc2a60WIqNBvIu', recaptchapub='6LeeCGMUAAAAAGJbI4bQbndrX_6jys9bbiBkfDFf';

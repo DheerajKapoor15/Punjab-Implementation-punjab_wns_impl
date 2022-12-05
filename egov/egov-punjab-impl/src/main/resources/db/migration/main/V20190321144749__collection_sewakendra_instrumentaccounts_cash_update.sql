@@ -1,0 +1,1 @@
+update egcl_service_instrumentaccounts set instrumenttype = (select id from egf_instrumenttype where type = 'cash') where servicedetails = (select id from egcl_servicedetails where code = 'SEWAKENDRA');

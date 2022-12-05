@@ -1,0 +1,1 @@
+insert into eg_user(id, locale, username, password, createddate, lastmodifieddate, createdby, lastmodifiedby, active, name, type, pwdexpirydate) values(9999999999999997, 'en_IN', 'airtel', '$2a$10$gP8m1538tjfSxaC.1Hn1YuCPWht7.E7cKuS/LpPyYB31VHkkw5fz6', now(), now(), 1, 1, true, 'AIRTEL', 'BUSINESS', '2099-01-01 00:00:00');

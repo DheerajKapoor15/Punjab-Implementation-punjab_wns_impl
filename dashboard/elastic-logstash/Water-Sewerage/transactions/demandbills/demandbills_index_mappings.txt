@@ -1,0 +1,113 @@
+curl -XPUT localhost:9200/demandbillconsumers -d '{
+    "mappings":{
+        "demandbillconsumers":{
+            "properties":{
+		"id":{
+                    
+                    "type":"keyword"
+                },
+		"cityName":{
+                    
+                    "type":"keyword"
+                },
+                "cityCode":{
+                    
+                    "type":"keyword"
+                },
+                "cityGrade":{
+                    
+                    "type":"keyword"
+                },            
+                "districtName":{
+                    
+                    "type":"keyword"
+                },
+                "regionName":{
+                    
+                    "type":"keyword"
+                },
+  		"consumerCode":{
+                    
+                    "type":"keyword"
+                },		
+		"serviceType":{
+                    
+                    "type":"keyword"
+                },
+		"zone":{
+                    
+                    "type":"keyword"
+                },
+		"block":{
+                    
+                    "type":"keyword"
+                },
+		"locality":{
+                    
+                    "type":"keyword"
+                }, 
+                "installmentFrom":{
+                    
+                    "type":"keyword"
+                },        
+		"billtype":{
+                    
+                    "type":"keyword"
+                }, 
+		"currentcharges":{
+                    "type":"double"
+                },
+		"currentcollection":{
+                    "type":"double"
+                },
+		"arrearcharges":{
+                    "type":"double"
+                },
+		"arrearcollection":{
+                    "type":"double"
+                },
+		"penalty":{
+                    "type":"double"
+                },
+		"penaltycollection":{
+                    "type":"double"
+                },
+		"interest":{
+                    "type":"double"
+                },
+		"interestcollection":{
+                    "type":"double"
+                },
+		"advancecollection":{
+                    "type":"double"
+                },	
+		"billgenerated":{
+                    "type":"boolean"
+                },	
+		"billamount":{
+                    "type":"double"
+                },
+		"billdate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },    
+                "billduedate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },
+		"demandlastupdatetime":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },    
+                "billlastupdatedtime":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },
+		"pwssb":{
+                    "type":"boolean"
+                }
+            }
+        }
+    }
+}'
+

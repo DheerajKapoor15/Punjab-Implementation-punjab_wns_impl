@@ -1,0 +1,1 @@
+update eg_city set domainurl = 'ropar-uat.egovernments.org';

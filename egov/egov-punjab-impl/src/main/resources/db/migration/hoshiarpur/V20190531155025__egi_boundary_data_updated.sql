@@ -1,0 +1,41 @@
+update egwtr_connection set locality=(select id from eg_boundary where code='HSP_11') where 
+locality=(select id from eg_boundary where code='HSP_10');
+update egwtr_connection set locality=(select id from eg_boundary where code='HSP_11') where 
+locality=(select id from eg_boundary where code='HSP_12');
+update egwtr_connection set locality=(select id from eg_boundary where code='HSP_117') where 
+locality=(select id from eg_boundary where code='HSP_118');
+update egwtr_connection set locality=(select id from eg_boundary where code='HSP_143') where 
+locality=(select id from eg_boundary where code='HSP_142');
+
+update egswtax_connection set locality=(select id from eg_boundary where code='HSP_11') where 
+locality=(select id from eg_boundary where code='HSP_10');
+update egswtax_connection set locality=(select id from eg_boundary where code='HSP_11') where 
+locality=(select id from eg_boundary where code='HSP_12');
+update egswtax_connection set locality=(select id from eg_boundary where code='HSP_117') where 
+locality=(select id from eg_boundary where code='HSP_118');
+update egswtax_connection set locality=(select id from eg_boundary where code='HSP_143') where 
+locality=(select id from eg_boundary where code='HSP_142');
+
+
+
+update eg_boundary set name='SHAKTI NAGAR',localname='SHAKTI NAGAR',parent=(select id from eg_boundary where code='B1' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')) where code='HSP_10';
+
+update eg_boundary set name='TELIAN MOHALLA',localname='TELIAN MOHALLA',parent=(select id from eg_boundary where code='B1' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')) where code='HSP_12';
+
+update eg_boundary set name='SCHEME NO 11',localname='SCHEME NO 11',parent=(select id from eg_boundary where code='B2' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')) where code='HSP_118';
+
+update eg_boundary set name='SHEEL MEHAL BAZAR',localname='SHEEL MEHAL BAZAR',parent=(select id from eg_boundary where code='B4' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')) where code='HSP_142';
+
+update egwtr_connection set block=(select parent from eg_boundary where id=locality);
+update egwtr_connection set zone=(select parent from eg_boundary where id=block);
+update egswtax_connection set block=(select parent from eg_boundary where id=locality);
+update egswtax_connection set zone=(select parent from eg_boundary where id=block);
+
+INSERT INTO eg_boundary (id, boundarynum, parent, name, boundarytype, localname, fromdate, todate, materializedpath, createddate, lastmodifieddate, createdby, lastmodifiedby, code, active, version) VALUES (NEXTVAL('seq_eg_boundary'), 221, (select id from eg_boundary where code='B7' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')), 'GHASIARA MOHALLA',(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality'), 'GHASIARA MOHALLA', '2018-04-01 00:00:00', '2099-03-31 00:00:00', NULL, now(), now(), 1, 1, 'HSP_221', true, 0);
+INSERT INTO eg_boundary (id, boundarynum, parent, name, boundarytype, localname, fromdate, todate, materializedpath, createddate, lastmodifieddate, createdby, lastmodifiedby, code, active, version) VALUES (NEXTVAL('seq_eg_boundary'), 222, (select id from eg_boundary where code='B12' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')), 'NEW JAGATPURA',(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality'), 'NEW JAGATPURA', '2018-04-01 00:00:00', '2099-03-31 00:00:00', NULL, now(), now(), 1, 1, 'HSP_222', true, 0);
+INSERT INTO eg_boundary (id, boundarynum, parent, name, boundarytype, localname, fromdate, todate, materializedpath, createddate, lastmodifieddate, createdby, lastmodifiedby, code, active, version) VALUES (NEXTVAL('seq_eg_boundary'), 223, (select id from eg_boundary where code='B13' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')), 'VAKILAN BAZAR',(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality'), 'VAKILAN BAZAR', '2018-04-01 00:00:00', '2099-03-31 00:00:00', NULL, now(), now(), 1, 1, 'HSP_223', true, 0);
+INSERT INTO eg_boundary (id, boundarynum, parent, name, boundarytype, localname, fromdate, todate, materializedpath, createddate, lastmodifieddate, createdby, lastmodifiedby, code, active, version) VALUES (NEXTVAL('seq_eg_boundary'), 224, (select id from eg_boundary where code='B17' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')), 'MANVTA NAGAR',(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality'), 'MANVTA NAGAR', '2018-04-01 00:00:00', '2099-03-31 00:00:00', NULL, now(), now(), 1, 1, 'HSP_224', true, 0);
+INSERT INTO eg_boundary (id, boundarynum, parent, name, boundarytype, localname, fromdate, todate, materializedpath, createddate, lastmodifieddate, createdby, lastmodifiedby, code, active, version) VALUES (NEXTVAL('seq_eg_boundary'), 225, (select id from eg_boundary where code='B21' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')), 'NEW SUKHIABAD',(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality'), 'NEW SUKHIABAD', '2018-04-01 00:00:00', '2099-03-31 00:00:00', NULL, now(), now(), 1, 1, 'HSP_225', true, 0);
+INSERT INTO eg_boundary (id, boundarynum, parent, name, boundarytype, localname, fromdate, todate, materializedpath, createddate, lastmodifieddate, createdby, lastmodifiedby, code, active, version) VALUES (NEXTVAL('seq_eg_boundary'), 226, (select id from eg_boundary where code='B22' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')), 'CANAL COLONY',(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality'), 'CANAL COLONY', '2018-04-01 00:00:00', '2099-03-31 00:00:00', NULL, now(), now(), 1, 1, 'HSP_226', true, 0);
+INSERT INTO eg_boundary (id, boundarynum, parent, name, boundarytype, localname, fromdate, todate, materializedpath, createddate, lastmodifieddate, createdby, lastmodifiedby, code, active, version) VALUES (NEXTVAL('seq_eg_boundary'), 227, (select id from eg_boundary where code='B23' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')), 'SAINT FARID NAGAR',(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality'), 'SAINT FARID NAGAR', '2018-04-01 00:00:00', '2099-03-31 00:00:00', NULL, now(), now(), 1, 1, 'HSP_227', true, 0);
+INSERT INTO eg_boundary (id, boundarynum, parent, name, boundarytype, localname, fromdate, todate, materializedpath, createddate, lastmodifieddate, createdby, lastmodifiedby, code, active, version) VALUES (NEXTVAL('seq_eg_boundary'), 228, (select id from eg_boundary where code='B23' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')), 'LALGARH',(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality'), 'LALGARH', '2018-04-01 00:00:00', '2099-03-31 00:00:00', NULL, now(), now(), 1, 1, 'HSP_228', true, 0);

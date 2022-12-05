@@ -1,0 +1,131 @@
+curl -XPUT localhost:9200/wsapplications -d '{
+    "mappings":{
+        "wsapplications":{
+            "properties":{
+		"id":{
+                    
+                    "type":"keyword"
+                },
+		"cityName":{
+                    
+                    "type":"keyword"
+                },
+                "cityCode":{
+                    
+                    "type":"keyword"
+                },
+                "cityGrade":{
+                    
+                    "type":"keyword"
+                },            
+                "districtName":{
+                    
+                    "type":"keyword"
+                },
+                "regionName":{
+                    
+                    "type":"keyword"
+                },
+		"serviceType":{
+                    
+                    "type":"keyword"
+                },
+		"applicationType":{
+                    
+                    "type":"keyword"
+                },
+		"applicationNumber":{
+                    
+                    "type":"keyword"
+                },
+		"applicationDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },
+		"applicantName":{
+                    "type":"keyword"
+                }, 
+		"disposalDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+		},  
+		"applicationStatus":{
+                    "type":"keyword"
+                },  
+ 		"mobileNumber":{
+                    
+                    "type":"keyword"
+                },
+		"emailId":{
+                    
+                    "type":"keyword"
+                },
+		"guardianName":{
+                    "type":"keyword"
+                },
+		"applicantAddress":{
+                    "type":"keyword"
+                },
+		"doorNo":{
+                    
+                    "type":"keyword"
+                },
+		"zone":{                    
+                    "type":"keyword"
+                },
+		"block":{                    
+                    "type":"keyword"
+                },
+		"locality":{
+                    
+                    "type":"keyword"
+                },
+		"channel": {
+                    "type": "keyword"
+		},		
+  		"consumerCode":{                    
+                    "type":"keyword"
+                },
+		"connectionStatus":{
+                    "type":"keyword"
+                }, 
+ 		"connectionType":{                    
+                    "type":"keyword"
+                },                      
+                "usage":{                    
+                    "type":"keyword"
+                },
+                "propertyType":{                    
+                    "type":"keyword"
+                },
+		"category":{                    
+                    "type":"keyword"
+                }, 
+                "createdDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },
+		"pwssb":{
+                    "type":"boolean"
+                },
+                "sla":{
+                    "type":"integer"
+                },
+                "slaGap":{
+                    "type":"integer"
+		},
+		"elapsedDays":{
+                    "type":"integer"
+		},
+		"autoVerified":{
+                    "type":"boolean"
+                },
+		"autoVerifiedDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+		}
+            }
+        }
+    }
+}'
+

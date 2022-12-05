@@ -1,0 +1,2 @@
+insert into chartofaccounts(id,glcode,name,description,isactiveforposting,parentid,createddate,createdby,lastmodifieddate,purposeid,operation,type,class,classification,functionreqd,budgetcheckreq,scheduleid,receiptscheduleid,receiptoperation,paymentscheduleid,paymentoperation,majorcode,lastmodifiedby,fiescheduleid,fieoperation)
+values(nextval('seq_chartofaccounts'),'45020','Bank Balance','Bank Balance',false,(select id from chartofaccounts where glcode='450'),now(),1,now(),null,null,'A',null,2,null,null,null,null,null,null,null,450,1,null,null);

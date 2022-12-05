@@ -1,0 +1,1 @@
+update eg_appconfig_values set value='000300' where key_id = (select id from EG_APPCONFIG where KEY_NAME='COLLECTION_BANKREMITTANCE_FUNCTIONCODE' AND MODULE =(select id from eg_module where name='Collection'));

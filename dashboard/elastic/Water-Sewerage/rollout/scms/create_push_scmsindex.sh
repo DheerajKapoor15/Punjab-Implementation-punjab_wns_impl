@@ -1,0 +1,8 @@
+#!/bin/bash
+export PGPASSWORD=<input db user password here>
+legacypath="adampur ajnala alawalpur amargarh amloh badhnikalan balachaur bareta banga banur bhikhi boha bassipathana batala budhlada begowal bhadaur bhadson gidderbaha bhawanigarh bhogpur bhulath malout mansa cheema dhariwal dhilwan dhuri dinanagar dirba doraha faridkot fatehgarhchurian fazilka ferozepur garhdiwala garhshankar ghagga ghanaur handiaya hariana jaitu jalalabad jandialaguru sardulgarh kartarpur khamano khanauri kharar khemkaran kotkapura sangatmandi kurali lalru talwandisabo lehragaga longowal machiwara mahilpur majitha mallanwala maloud raman mamdot bariwala morinda mudki mukerian bhuchomandi nadala nakodar goniana nihalsinghwala nurmahal patran payal phillaur quadian rahon raikot rajasansi rajpura kotfatta ramdass rayya ropar samana samrala sanaur maur shahkot sujanpur shamchurasi sirhind srihargobindpur sunam talwandibhai talwara tapa tarntaran urmartanda gurdaspur mandigobindgarh dasuya abohar kapurthala patti derababananak zira makhu guruharsahai baghapurana dharamkot sultanpurlodhi nangal jagraon barnala ahmedgarh derabassi nabha malerkotla moonak mullanpurdakha goraya mohali sangrur rampuraphul hoshiarpur dhanaula"
+for d in $legacypath; do
+  echo $d
+  sh ./SCMS_CON_INDEX.sh $d
+  echo "Sewerage Connection Statistics pushed to ES for city "$d
+done

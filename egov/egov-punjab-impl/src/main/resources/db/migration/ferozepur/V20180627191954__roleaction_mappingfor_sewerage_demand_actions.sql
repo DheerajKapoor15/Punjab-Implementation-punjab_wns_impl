@@ -1,0 +1,2 @@
+INSERT INTO EG_ROLEACTION (ROLEID, ACTIONID) values ((select id from eg_role where name = 'PWSSB User'),(select id FROM eg_action WHERE NAME = 'EditDemand-stms' and CONTEXTROOT='stms'));
+INSERT INTO EG_ROLEACTION (ROLEID, ACTIONID) values ((select id from eg_role where name = 'PWSSB User'),(select id FROM eg_action WHERE NAME = 'EditDemand' and CONTEXTROOT='stms'));

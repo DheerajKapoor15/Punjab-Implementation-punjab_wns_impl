@@ -1,0 +1,60 @@
+
+update eg_boundary set name = 'JIWEN BASTI' , localname= 'JIWEN BASTI' where code = 'BH1';
+update eg_boundary set name = 'GUMMAN VALIEA DI GALI ' , localname= 'GUMMAN VALIEA DI GALI ' where code = 'BH2';
+update eg_boundary set name = 'TENKI TO UDDAT ROAD' , localname= 'TENKI TO UDDAT ROAD' where code = 'BH3';
+update eg_boundary set name = 'TENKI TO RATIA ROAD' , localname= 'TENKI TO RATIA ROAD' where code = 'BH4';
+update eg_boundary set name = 'BOY SCHOOL GALI' , localname= 'BOY SCHOOL GALI' where code = 'BH5';
+update eg_boundary set name = 'BOY SCHOOL GALI NO TWO' , localname= 'BOY SCHOOL GALI NO TWO' where code = 'BH6';
+update eg_boundary set name = 'SAHIL SWEET TO RATIA ROAD' , localname= 'SAHIL SWEET TO RATIA ROAD' where code = 'BH7';
+update eg_boundary set name = ' SHERKHA TO NAJOOL BASTI' , localname= ' SHERKHA TO NAJOOL BASTI' where code = 'BH8';
+update eg_boundary set name = 'SAHIL SWEET TO FOJI GATE ' , localname= 'SAHIL SWEET TO FOJI GATE ' where code = 'BH9';
+update eg_boundary set name = 'GAUSHALA ROAD' , localname= 'GAUSHALA ROAD' where code = 'BH10';
+update eg_boundary set name = 'NEAR PANJGARAHI GURUGHAR ' , localname= 'NEAR PANJGARAHI GURUGHAR ' where code = 'BH11';
+update eg_boundary set name = 'CO-BANK TO GILL CHONK' , localname= 'CO-BANK TO GILL CHONK' where code = 'BH12';
+update eg_boundary set name = 'RAVIDASS MANDIR VALI GALI' , localname= 'RAVIDASS MANDIR VALI GALI' where code = 'BH13';
+update eg_boundary set name = 'BSNL TOWER VALI GALI' , localname= 'BSNL TOWER VALI GALI' where code = 'BH14';
+update eg_boundary set name = 'RELIANCE TOWER VALI GALI' , localname= 'RELIANCE TOWER VALI GALI' where code = 'BH15';
+update eg_boundary set name = 'MASTER JI VALI GALI' , localname= 'MASTER JI VALI GALI' where code = 'BH16';
+update eg_boundary set name = 'MC TARI VALI GALI' , localname= 'MC TARI VALI GALI' where code = 'BH17';
+update eg_boundary set name = 'CHOUDHARIAN VALI GALI' , localname= 'CHOUDHARIAN VALI GALI' where code = 'BH18';
+update eg_boundary set name = 'RO VALI GALI ' , localname= 'RO VALI GALI ' where code = 'BH19';
+update eg_boundary set name = 'MADANIYA VEHRA ' , localname= 'MADANIYA VEHRA ' where code = 'BH20';
+update eg_boundary set name = 'NAVEEN GURUGHAR VALI GALI' , localname= 'NAVEEN GURUGHAR VALI GALI' where code = 'BH21';
+update eg_boundary set name = 'MC JEETE VALI GALI ' , localname= 'MC JEETE VALI GALI ' where code = 'BH22';
+update eg_boundary set name = 'MC MUKHTYAR VALI GALI ' , localname= 'MC MUKHTYAR VALI GALI ' where code = 'BH23';
+update eg_boundary set name = 'BABA DEEP SINGH NAGAR WARD 5' , localname= 'BABA DEEP SINGH NAGAR WARD 5' where code = 'BH24';
+update eg_boundary set name = 'GILL CHONK TO SARDARA PATTI CHONK' , localname= 'GILL CHONK TO SARDARA PATTI CHONK' where code = 'BH25';
+update eg_boundary set name = 'PARWAR KHANE TO NEHTI KOTHI' , localname= 'PARWAR KHANE TO NEHTI KOTHI' where code = 'BH26';
+update eg_boundary set name = 'RO TO GUJJAR VALI GALI' , localname= 'RO TO GUJJAR VALI GALI' where code = 'BH27';
+update eg_boundary set name = 'ANDARKOT MOHALLA ' , localname= 'ANDARKOT MOHALLA ' where code = 'BH28';
+update eg_boundary set name = 'NEAR MASIT VALA GURU GHAR ' , localname= 'NEAR MASIT VALA GURU GHAR ' where code = 'BH29';
+update eg_boundary set name = 'MC GULU VALI GALI' , localname= 'MC GULU VALI GALI' where code = 'BH30';
+update eg_boundary set name = 'BAG VEHRA FIRNI' , localname= 'BAG VEHRA FIRNI' where code = 'BH31';
+update eg_boundary set name = 'BAG VEHRA GALI 1,2,3,' , localname= 'BAG VEHRA GALI 1,2,3,' where code = 'BH32';
+update eg_boundary set name = 'BAG VEHRA GALI 4,5,6,' , localname= 'BAG VEHRA GALI 4,5,6,' where code = 'BH33';
+update eg_boundary set name = 'S K VASHISHT VALI GALI' , localname= 'S K VASHISHT VALI GALI' where code = 'BH34';
+update eg_boundary set name = 'MASTER LOVELY VALI GALI' , localname= 'MASTER LOVELY VALI GALI' where code = 'BH35';
+update eg_boundary set name = 'PIPAL CHONK TO ARORA MOHALA ' , localname= 'PIPAL CHONK TO ARORA MOHALA ' where code = 'BH36';
+update eg_boundary set name = 'PRIMERY SCHOOL TO MC SUNIL VALI GALI' , localname= 'PRIMERY SCHOOL TO MC SUNIL VALI GALI' where code = 'BH37';
+update eg_boundary set name = 'ASHOKA DI CHAKI TO GIRL SCHOOL CHONK' , localname= 'ASHOKA DI CHAKI TO GIRL SCHOOL CHONK' where code = 'BH38';
+update eg_boundary set name = 'PAPI DOCTOR TO SHIV MANDIR' , localname= 'PAPI DOCTOR TO SHIV MANDIR' where code = 'BH39';
+update eg_boundary set name = 'SHIV MANDIR TO CO-OPREATIVE BANK' , localname= 'SHIV MANDIR TO CO-OPREATIVE BANK' where code = 'BH40';
+update eg_boundary set name = 'MC JOGA SINGH VALI GALI' , localname= 'MC JOGA SINGH VALI GALI' where code = 'BH41';
+update eg_boundary set name = 'DR BANGALI TO SEERA DEEPOO TAK' , localname= 'DR BANGALI TO SEERA DEEPOO TAK' where code = 'BH42';
+update eg_boundary set name = 'NERA PSPCL OFFICE ' , localname= 'NERA PSPCL OFFICE ' where code = 'BH43';
+update eg_boundary set name = 'MODAL TOWN ALL' , localname= 'MODAL TOWN ALL' where code = 'BH44';
+update eg_boundary set name = 'MASTER TANGARI VALI GALI' , localname= 'MASTER TANGARI VALI GALI' where code = 'BH45';
+update eg_boundary set name = 'GADARPATTI GURU GHAR VALI GALI' , localname= 'GADARPATTI GURU GHAR VALI GALI' where code = 'BH46';
+update eg_boundary set name = 'NEAR PIPAL CHONK ALL' , localname= 'NEAR PIPAL CHONK ALL' where code = 'BH47';
+update eg_boundary set name = 'KARNAIL KHALSA VALI GALI' , localname= 'KARNAIL KHALSA VALI GALI' where code = 'BH48';
+update eg_boundary set name = 'BUDHLADA ROAD ALL' , localname= 'BUDHLADA ROAD ALL' where code = 'BH49';
+update eg_boundary set name = 'MAL SINGH VALA ROAD' , localname= 'MAL SINGH VALA ROAD' where code = 'BH50';
+update eg_boundary set name = 'DR JASSA VALI GALI' , localname= 'DR JASSA VALI GALI' where code = 'BH51';
+update eg_boundary set name = 'BUDHLADA ROAD NEHRO PAAR WARD 1' , localname= 'BUDHLADA ROAD NEHRO PAAR WARD 1' where code = 'BH52';
+update eg_boundary set name = 'MAKHU VALA TIBBA ALL' , localname= 'MAKHU VALA TIBBA ALL' where code = 'BH53';
+update eg_boundary set name = 'KULANA VALI GALI' , localname= 'KULANA VALI GALI' where code = 'BH54';
+
+
+INSERT INTO eg_boundary (id, boundarynum, parent, name, boundarytype, localname, fromdate, todate, materializedpath, createddate, lastmodifieddate, createdby, lastmodifiedby, code, active, version) VALUES (NEXTVAL('seq_eg_boundary'),55 , (select id from eg_boundary where code='B9' and boundarytype=(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Block')), 'MADANIYA VEHRA GORA SINGH VALI GALI',(select id from eg_boundary_type where hierarchytype = (select id from eg_hierarchy_type where name = 'REVENUE') and name='Locality'), 'MADANIYA VEHRA GORA SINGH VALI GALI', '2018-04-01 00:00:00', '2099-03-31 00:00:00', NULL, now(), now(), 1, 1, 'BH55', true, 0);
+
+

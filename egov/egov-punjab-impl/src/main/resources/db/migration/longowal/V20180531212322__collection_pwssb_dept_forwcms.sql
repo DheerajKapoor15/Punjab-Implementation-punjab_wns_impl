@@ -1,0 +1,1 @@
+update eg_appconfig_values set value='DEPT_15' where key_id = (select id from eg_appconfig where key_name='DEPT_CODE_FOR_GENERATE_BILL' and module=(select id from eg_module where name='Sewerage Tax Management'));

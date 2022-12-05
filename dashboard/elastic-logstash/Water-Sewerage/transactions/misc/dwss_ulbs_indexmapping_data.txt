@@ -1,0 +1,20 @@
+curl -XPUT localhost:9200/dwssulbs -d '{
+    "mappings":{
+        "dwssulbs":{
+            "properties":{
+		"cityname":{
+                    "type":"keyword"
+                }
+            }
+        }
+    }
+}'
+
+
+POST localhost:9200/_bulk
+{ "index":{ "_index": "dwssulbs", "_type": "dwssulbs" } }
+{ "cityname":"Kiratpur Sahib" }
+{ "index":{ "_index": "dwssulbs", "_type": "dwssulbs" } }
+{ "cityname":"Anandpur Sahib" }
+{ "index":{ "_index": "dwssulbs", "_type": "dwssulbs" } }
+{ "cityname":"Chamkaur Sahib" }

@@ -1,0 +1,1 @@
+update egwtr_ulb_status set domainurl='https://mseva.lgpunjab.gov.in';

@@ -1,0 +1,1 @@
+update chartofaccounts set name = 'Water Meter Ownership Transfer Fee', description = 'Water Meter Ownership Transfer Fee' where glcode = '1404016';

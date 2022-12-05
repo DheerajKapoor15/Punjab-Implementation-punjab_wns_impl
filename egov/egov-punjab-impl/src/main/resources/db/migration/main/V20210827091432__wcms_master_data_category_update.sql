@@ -1,0 +1,9 @@
+--Category
+--INSERT INTO egwtr_category(id, name, code, active, createddate, lastmodifieddate, createdby, lastmodifiedby, version) VALUES (nextval('seq_egwtr_category'), 'Illegal Connection', 'ILLEGAL', true, now(), now(), 1, 1, 0);
+--INSERT INTO egwtr_category(id, name, code, active, createddate, lastmodifieddate, createdby, lastmodifiedby, version) VALUES (nextval('seq_egwtr_category'), 'Regularized Connection', 'REGUlAR', true, now(), now(), 1, 1, 0);
+
+--Property Type Category
+--INSERT INTO egwtr_property_category(id, propertytype, categorytype, active, createddate, lastmodifieddate, createdby, lastmodifiedby, version) VALUES (nextval('seq_egwtr_property_category'), (select id from egwtr_property_type where name='Residential'), (select id from egwtr_category where name='Illegal Connection'), true, now(), now(), 1, 1, 0);
+--INSERT INTO egwtr_property_category(id, propertytype, categorytype, active, createddate, lastmodifieddate, createdby, lastmodifiedby, version) VALUES (nextval('seq_egwtr_property_category'), (select id from egwtr_property_type where name='Residential'), (select id from egwtr_category where name='Regularized Connection'), true, now(), now(), 1, 1, 0);--
+--INSERT INTO egwtr_property_category(id, propertytype, categorytype, active, createddate, lastmodifieddate, createdby, lastmodifiedby, version) VALUES (nextval('seq_egwtr_property_category'), (select id from egwtr_property_type where name !='Residential'), (select id from egwtr_category where name='Illegal Connection'), true, now(), now(), 1, 1, 0);
+--INSERT INTO egwtr_property_category(id, propertytype, categorytype, active, createddate, lastmodifieddate, createdby, lastmodifiedby, version) VALUES (nextval('seq_egwtr_property_category'), (select id from egwtr_property_type where name !='Residential'), (select id from egwtr_category where name='Regularized Connection'), true, now(), now(), 1, 1, 0);

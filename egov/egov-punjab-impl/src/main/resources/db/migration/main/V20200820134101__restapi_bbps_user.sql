@@ -1,0 +1,1 @@
+insert into eg_user(id, locale, username, password, createddate, lastmodifieddate, createdby, lastmodifiedby, active, name, type, pwdexpirydate) values(9999999999999993, 'en_IN', 'bbps', '$2a$10$mvhxqLvCpIfBBJiQ2M5Lq.LyNrbqR1dMdy3aB2zufFAJO5CT2g8IO', now(), now(), 1, 1, true, 'BBPS', 'BUSINESS', '2099-01-01 00:00:00');

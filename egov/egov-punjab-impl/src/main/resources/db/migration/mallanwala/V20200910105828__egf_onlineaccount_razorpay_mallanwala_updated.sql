@@ -1,0 +1,1 @@
+update bankaccount set narration ='acc_FvkZ55TIsLlLAS' where accountnumber='917010056656770';

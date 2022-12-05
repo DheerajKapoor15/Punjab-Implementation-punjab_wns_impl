@@ -1,0 +1,66 @@
+curl -XPUT localhost:9200/projecteddemand-consumers -d '{
+    "mappings":{
+        "projecteddemand-consumers":{
+            "properties":{
+		"id":{
+                    
+                    "type":"keyword"
+                },
+		"cityName":{
+                    
+                    "type":"keyword"
+                },
+                "cityCode":{
+                    
+                    "type":"keyword"
+                },
+                "cityGrade":{
+                    
+                    "type":"keyword"
+                },            
+                "districtName":{
+                    
+                    "type":"keyword"
+                },
+                "regionName":{
+                    
+                    "type":"keyword"
+                },
+  		"consumerCode":{
+                    
+                    "type":"keyword"
+                },		
+		"serviceType":{
+                    
+                    "type":"keyword"
+                },
+		"zone":{
+                    
+                    "type":"keyword"
+                },
+		"block":{
+                    
+                    "type":"keyword"
+                },
+		"locality":{
+                    
+                    "type":"keyword"
+                }, 
+                "installmentFrom":{
+                    
+                    "type":"keyword"
+                },
+		"projecteddemand":{
+                    "type":"double"
+                },
+		"connectionStatus":{
+                    "type":"keyword"
+                },
+		"pwssb":{
+                    "type":"boolean"
+                }
+            }
+        }
+    }
+}'
+

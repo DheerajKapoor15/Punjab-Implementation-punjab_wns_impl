@@ -1,0 +1,1 @@
+update eg_appconfig_values set value = '50525200' where key_id in (select id from eg_appconfig where module in (select id from eg_module where name = 'Sewerage Tax Management') and key_name = 'SEWERAGE_FUNCTION_CODE');

@@ -1,0 +1,1 @@
+update egcl_servicedetails set name = 'Sewerage Charges' where code = 'STAX';

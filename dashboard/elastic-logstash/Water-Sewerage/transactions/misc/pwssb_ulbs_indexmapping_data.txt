@@ -1,0 +1,132 @@
+curl -XPUT localhost:9200/pwssbulbs -d '{
+    "mappings":{
+        "pwssbulbs":{
+            "properties":{
+		"cityname":{
+                    "type":"keyword"
+                }
+            }
+        }
+    }
+}'
+
+
+POST localhost:9200/_bulk
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Abohar" }
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Ajnala" }
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Badhni Kalan" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Balachaur" }
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Banga" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Bareta" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Bariwala" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Barnala" }    
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Bassi Pathana" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Batala" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Bhadaur" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Bhikhi" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Bhucho Mandi" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Budhlada" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Boha" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Cheema" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Dhuri" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Dina Nagar" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Dirba" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Faridkot" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Fatehgarh Churian" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Ferozepur" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Ghanaur" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Gidderbaha" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Goniana" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Handiaya" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Jaitu" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Jandiala Guru" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Khanauri" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Khemkaran" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Kotfatta" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Kotkapura" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Longowal" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Machiwara" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Majitha" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Mallanwala" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Maloud" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Malout" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Mansa" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Maur" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Morinda" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"MullanpurDakha" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Nakodar" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Payal" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Phagwara" } 
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Phillaur" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Quadian" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Rajpura" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Raman" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Ramdass" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Samana" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Sangat Mandi" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Sangrur" }     
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Sardulgarh" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Sirhind" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Sri Hargobindpur" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Talwandi Sabo" }   
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"TalwandiBhai" }  
+{ "index":{ "_index": "pwssbulbs", "_type": "pwssbulbs" } }
+{ "cityname":"Talwara" }

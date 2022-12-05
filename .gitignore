@@ -1,0 +1,6 @@
+/target/
+.settings/
+.classpath
+.project
+egov-erp-punjab.iml
+.idea

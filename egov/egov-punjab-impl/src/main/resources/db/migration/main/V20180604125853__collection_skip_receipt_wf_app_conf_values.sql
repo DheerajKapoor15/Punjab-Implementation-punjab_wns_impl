@@ -1,0 +1,1 @@
+Insert into eg_appconfig_values ( ID, KEY_ID, EFFECTIVE_FROM, VALUE, VERSION ) VALUES (nextval('SEQ_EG_APPCONFIG_VALUES'), (SELECT id FROM EG_APPCONFIG WHERE KEY_NAME='SKIP_WORKFLOW_FOR_RECEIPT' and module=(select id from eg_module where name='Collection')), '01-Apr-2018', 'Y',0);

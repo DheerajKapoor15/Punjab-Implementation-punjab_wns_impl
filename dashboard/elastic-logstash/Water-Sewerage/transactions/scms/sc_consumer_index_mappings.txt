@@ -1,0 +1,135 @@
+curl -XPUT localhost:9200/seweragechargesconsumers -d '{
+    "mappings":{
+        "seweragechargesconsumers":{
+            "properties":{
+		"id":{
+                    
+                    "type":"keyword"
+                },
+		"cityName":{
+                    
+                    "type":"keyword"
+                },
+                "cityCode":{
+                    
+                    "type":"keyword"
+                },
+                "cityGrade":{
+                    
+                    "type":"keyword"
+                },            
+                "districtName":{
+                    
+                    "type":"keyword"
+                },
+                "regionName":{
+                    
+                    "type":"keyword"
+                },		
+		"serviceType":{
+                    
+                    "type":"keyword"
+                },
+		"connectionDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },
+  		"consumerCode":{
+                    
+                    "type":"keyword"
+                },
+		"oldConsumerCode":{
+                    
+                    "type":"keyword"
+                },                                      
+                "connectionStatus":{
+                    
+                    "type":"keyword"
+                },
+		"consumerName":{
+                    "type":"keyword"
+                },     
+ 		"mobileNumber":{
+                    
+                    "type":"keyword"
+                },
+		"emailId":{
+                    
+                    "type":"keyword"
+                },
+		"guardianName":{
+                    "type":"keyword"
+                },
+		"consumerAddress":{
+                    "type":"keyword"
+                },
+		"doorNo":{
+                    
+                    "type":"keyword"
+                },
+		"zone":{
+                    
+                    "type":"keyword"
+                },
+		"block":{
+                    
+                    "type":"keyword"
+                },
+		"locality":{
+                    
+                    "type":"keyword"
+                },		 
+                "propertyUID":{
+                    
+                    "type":"keyword"
+                }, 
+		"waterConsumerCode":{
+                    
+                    "type":"keyword"
+                },                   
+                "usage":{
+                    
+                    "type":"keyword"
+                },
+		"plotSize":{
+                    
+                    "type":"keyword"
+                },
+		"noOfSeatsResidential":{
+                    
+                    "type":"keyword"
+                }, 
+		"noOfSeatsNonResidential":{
+                    
+                    "type":"keyword"
+                },            
+		"billingType":{
+                    
+                    "type":"keyword"
+                }, 
+		"legacy":{
+                    "type":"boolean"
+                },
+		"applicationNumber":{
+                    
+                    "type":"keyword"
+                },
+		"applicationDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },    
+                "createdDate":{
+                    "format":"date_optional_time",
+                    "type":"date"
+                },
+		"exempted":{
+                    "type":"boolean"
+                },
+		"pwssb":{
+                    "type":"boolean"
+                }
+            }
+        }
+    }
+}'
+

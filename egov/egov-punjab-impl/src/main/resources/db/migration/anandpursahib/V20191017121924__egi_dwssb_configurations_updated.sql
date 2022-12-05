@@ -1,0 +1,1 @@
+update eg_appconfig_values set value='cityName=Department of Water Supply and Sanitation,contactNo=01887-297171,emailId=hoddwss@gmail.com,designation=DWSS Authority' where key_id=(SELECT id FROM EG_APPCONFIG WHERE KEY_NAME='DWSSB_CONFIGURATION' and module=(select id from eg_module where name='Administration'));

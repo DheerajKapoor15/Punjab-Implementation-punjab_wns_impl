@@ -1,0 +1,1 @@
+insert into egwtr_connection_type (id,code,name,description,active,createddate,lastmodifieddate,createdby,lastmodifiedby,version) values (nextval('seq_egwtr_connection_type'),'METERED','Metered','Metered Connection','true',now(),now(),1,1,0);

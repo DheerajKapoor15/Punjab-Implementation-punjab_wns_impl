@@ -1,0 +1,135 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.1.1.aar/a57c8bb9b9c533ebee30d5957a49fa2f/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.1.1.aar/c0249ce90c11ef83fcbb141c5a0a3310/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.1.1.aar/156fb677f36c3738f3cd1713e026f804/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/dc4aaddb39eb09ec22fd737f3891b324/AndroidManifest.xml:17:1-27:12
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:8:5-69
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:8:22-66
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:9:5-84
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:10:5-90
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:10:22-71
+application
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:13:5-37:19
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.1.1.aar/a57c8bb9b9c533ebee30d5957a49fa2f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.1.1.aar/a57c8bb9b9c533ebee30d5957a49fa2f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.1.1.aar/c0249ce90c11ef83fcbb141c5a0a3310/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.1.1.aar/c0249ce90c11ef83fcbb141c5a0a3310/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.1.1.aar/156fb677f36c3738f3cd1713e026f804/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.1.1.aar/156fb677f36c3738f3cd1713e026f804/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/dc4aaddb39eb09ec22fd737f3891b324/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/dc4aaddb39eb09ec22fd737f3891b324/AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:15:9-40
+	android:allowBackup
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:18:9-40
+activity#anil.com.andoirdbluetoothprint.MainActivity
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:19:9-31:20
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:19:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:23:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:print+data:scheme:pmidc
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:25:13-30:29
+action#android.intent.action.VIEW
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:27:17-78
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:27:27-75
+category#android.intent.category.DEFAULT
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:28:27-73
+data
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:29:17-69
+	android:host
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:29:46-66
+	android:scheme
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:29:23-45
+activity#anil.com.andoirdbluetoothprint.DeviceListActivity
+ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:34:9-36:82
+	android:theme
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:36:13-70
+	android:name
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml:35:13-47
+uses-sdk
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.1.1.aar/a57c8bb9b9c533ebee30d5957a49fa2f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.1.1.aar/a57c8bb9b9c533ebee30d5957a49fa2f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.1.1.aar/c0249ce90c11ef83fcbb141c5a0a3310/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.1.1.aar/c0249ce90c11ef83fcbb141c5a0a3310/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.1.1.aar/156fb677f36c3738f3cd1713e026f804/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.1.1.aar/156fb677f36c3738f3cd1713e026f804/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/dc4aaddb39eb09ec22fd737f3891b324/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/dc4aaddb39eb09ec22fd737f3891b324/AndroidManifest.xml:21:5-23:54
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.1.1] /home/kiranmayi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.1.1.aar/a57c8bb9b9c533ebee30d5957a49fa2f/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+		ADDED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kiranmayi/Desktop/mobile/android/Android-studio-bluetooth-printer/app/src/main/AndroidManifest.xml

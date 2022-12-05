@@ -1,0 +1,1 @@
+update eg_appconfig_values set value='cityName=Punjab Water Supply and Sewerage Board,contactNo=18001371802,emailId=eepwssdabh@gmail.com,designation=PWSSB Authority' where KEY_ID=(SELECT id FROM EG_APPCONFIG WHERE KEY_NAME='PWSSB_CONFIGURATION' and module=(select id from eg_module where name='Administration'));
